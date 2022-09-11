@@ -379,8 +379,8 @@ contract Husky is Context, IERC20, Ownable {
     using SafeMath for uint256;
     using Address for address;
     
-    string private _name = "Husky";
-    string private _symbol = "Husky";
+    string private _name = "Husky 2.0";
+    string private _symbol = "Husky 2.0";
     uint8 private _decimals = 9;
 
     address payable public DevelopmentWalletAddress = payable(0xbc31A6ef9430D17Be75C6Bb42a6085C351a551a2); 
