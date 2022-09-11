@@ -383,7 +383,7 @@ contract Husky is Context, IERC20, Ownable {
     string private _symbol = "Husky";
     uint8 private _decimals = 9;
 
-    address payable public DevelopmentWalletAddress = payable(0x7244964d855dDaE278D5597df28be60C9f015dE4); 
+    address payable public DevelopmentWalletAddress = payable(0xbc31A6ef9430D17Be75C6Bb42a6085C351a551a2); 
     address public immutable deadAddress = 0x000000000000000000000000000000000000dEaD;
     
     mapping (address => uint256) _balances;
